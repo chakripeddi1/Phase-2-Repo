@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExtentReports]">
+  <test thread-count="5" name="Test WikiPage(failed)">
+    <classes>
+      <class name="com.app.TestNG.Extentreports.TestClass">
+        <methods>
+          <include name="generateTestStatus"/>
+          <include name="generateReports"/>
+          <include name="openBrowser"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="closebrowser"/>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- com.app.TestNG.Extentreports.TestClass -->
+    </classes>
+  </test> <!-- Test WikiPage(failed) -->
+  <test thread-count="5" name="Test facebookpage(failed)">
+    <classes>
+      <class name="com.app.TestNG.Extentreports.TestClass">
+        <methods>
+          <include name="generateTestStatus"/>
+          <include name="method2"/>
+          <include name="generateReports"/>
+          <include name="openBrowser"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.app.TestNG.Extentreports.TestClass -->
+    </classes>
+  </test> <!-- Test facebookpage(failed) -->
+  <test thread-count="5" name="Test rediffPage(failed)">
+    <classes>
+      <class name="com.app.TestNG.Extentreports.TestClass">
+        <methods>
+          <include name="generateTestStatus"/>
+          <include name="generateReports"/>
+          <include name="method3"/>
+          <include name="openBrowser"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.app.TestNG.Extentreports.TestClass -->
+    </classes>
+  </test> <!-- Test rediffPage(failed) -->
+</suite> <!-- Failed suite [ExtentReports] -->

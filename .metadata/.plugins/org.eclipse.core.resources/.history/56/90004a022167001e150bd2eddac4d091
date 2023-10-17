@@ -1,0 +1,5 @@
+package com.app.TestNG.Extentreports;
+
+public class BaseTest {
+
+}

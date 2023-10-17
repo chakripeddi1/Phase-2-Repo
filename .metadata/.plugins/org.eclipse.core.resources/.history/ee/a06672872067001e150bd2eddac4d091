@@ -1,0 +1,15 @@
+package com.app.TestNG.Extentreports;
+
+
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	
+	public static WebDriver driver;
+	public static ExtentReports extentreports;
+	public static ExtentTest extentTest;
+	
+	
+
+}
